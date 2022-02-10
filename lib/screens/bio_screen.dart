@@ -95,7 +95,7 @@ class BioScreen extends StatelessWidget {
                     dismissDirection: DismissDirection.horizontal,
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(2)),
-                    elevation: 5,
+                    elevation: 4,
                     behavior: SnackBarBehavior.floating,
                     margin: EdgeInsetsDirectional.only(
                         start: 20, end: 20, bottom: 10),
