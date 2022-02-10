@@ -90,7 +90,7 @@ class BioScreen extends StatelessWidget {
                   ScaffoldMessenger.of(context).showSnackBar(SnackBar(
                     content: Text('Send Message'),
                     backgroundColor: Colors.blue,
-                    duration: Duration(seconds: 6),
+                    duration: Duration(seconds: 7),
                     onVisible: () => print('welcome'),
                     dismissDirection: DismissDirection.horizontal,
                     shape: RoundedRectangleBorder(
